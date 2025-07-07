@@ -63,7 +63,7 @@ pip install PyQt5 requests pysocks
 ## 常见问题
 
 - **如何测试端口监听？**  
-  可用netstat、telnet、curl命令，详见[文档/FAQ](#)。
+  可用netstat、telnet、curl命令。
 - **支持多少并发？**  
   默认支持100并发连接，可在源码中调节`max_workers`参数。
 - **支持用户名密码代理吗？**  
